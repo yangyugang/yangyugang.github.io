@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="theme-next use-motion ">
+<html class="theme-next use-motion theme-next-mist">
 <head>
   
 
@@ -20,8 +20,6 @@
 
 
 
-  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
 
 <link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1"/>
 
@@ -30,7 +28,7 @@
 
 
 
-  <meta name="keywords" content="Hexo,next" />
+  <meta name="keywords" content="yangyugang,android,php,ios" />
 
 
 
@@ -56,7 +54,7 @@ Quick">
 
 <script type="text/javascript" id="hexo.configuration">
   var CONFIG = {
-    scheme: '',
+    scheme: 'Mist',
     sidebar: 'post'
   };
 </script>
@@ -64,7 +62,7 @@ Quick">
   <title> Hello World | Smartydroid </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   <!--[if lte IE 8]>
   <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
@@ -112,7 +110,23 @@ Quick">
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             <i class="menu-item-icon icon-next-home"></i> <br />
-            首頁
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            <i class="menu-item-icon icon-next-categories"></i> <br />
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            <i class="menu-item-icon icon-next-about"></i> <br />
+            关于
           </a>
         </li>
       
@@ -120,7 +134,7 @@ Quick">
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             <i class="menu-item-icon icon-next-archives"></i> <br />
-            歸檔
+            归档
           </a>
         </li>
       
@@ -128,19 +142,12 @@ Quick">
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             <i class="menu-item-icon icon-next-tags"></i> <br />
-            標籤
+            标签
           </a>
         </li>
       
 
       
-      
-        <li class="menu-item menu-item-search">
-          <a href="#" class="st-search-show-outputs">
-            <i class="menu-item-icon icon-next-search"></i> <br />
-            檢索
-          </a>
-        </li>
       
     </ul>
   
@@ -175,7 +182,7 @@ Quick">
 
       <div class="post-meta">
         <span class="post-time">
-          發表於
+          发表于
           <time itemprop="dateCreated" datetime="2015-07-31T23:02:25+08:00" content="2015-07-31">
             2015-07-31
           </time>
@@ -252,17 +259,17 @@ Quick">
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目錄
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            本站概覽
+            站点概览
           </li>
         </ul>
       
 
       <section class="site-overview">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="/images/default_avatar.jpg" alt="yangyugang" itemprop="image"/>
+          <img class="site-author-image" src="https://avatars3.githubusercontent.com/u/2494239?v=3&s=460" alt="yangyugang" itemprop="image"/>
           <p class="site-author-name" itemprop="name">yangyugang</p>
         </div>
         <p class="site-description motion-element" itemprop="description">Smartydroid</p>
@@ -270,21 +277,21 @@ Quick">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">文章</span>
+              <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
-            
+            <a href="/categories">
               <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">分類</span>
-              
+              <span class="site-state-item-name">分类</span>
+              </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
               <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">標籤</span>
+              <span class="site-state-item-name">标签</span>
               </a>
           </div>
 
@@ -293,6 +300,16 @@ Quick">
         
 
         <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/yangyugang" target="_blank">GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/yangyugang" target="_blank">Twitter</a>
+              </span>
+            
           
         </div>
 
@@ -336,13 +353,13 @@ Quick">
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 強力驅動
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  主題 -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
+    NexT.Mist
   </a>
 </div>
 
@@ -361,6 +378,27 @@ Quick">
     
     
 
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'yangyugang';
+      var disqus_identifier = '2015/07/31/hello-world/';
+      var disqus_title = 'Hello World';
+      var disqus_url = 'http://yoursite.com/2015/07/31/hello-world/';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+    </script>
   
 
 
